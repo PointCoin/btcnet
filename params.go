@@ -101,9 +101,9 @@ var MainNetParams = Params{
 	DefaultPort: "22228",
 
 	// Chain parameters
-	GenesisBlock:           &genesisBlock,
-	GenesisHash:            &genesisHash,
-	PowLimit:               mainPowLimit,
+	GenesisBlock:           &testnet3GenesisBlock,
+	GenesisHash:            &testnet3GenesisHash,
+	PowLimit:               testnet3PowLimit,
 	PowLimitBits:           0x1d00ffff,
 	SubsidyHalvingInterval: 400000,
 	ResetMinDifficulty:     true,
@@ -128,7 +128,7 @@ var MainNetParams = Params{
 	RelayNonStdTxs: true,
 
 	// Address encoding magics
-	PubKeyHashAddrID: 0x00, // starts with 1
+	PubKeyHashAddrID: 0x38, // starts with P
 	ScriptHashAddrID: 0x05, // starts with 3
 	PrivateKeyID:     0x80, // starts with 5 (uncompressed) or K (compressed)
 
