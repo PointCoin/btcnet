@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/btcsuite/btcnet"
+	. "github.com/PointCoin/btcnet"
 )
 
 // Define some of the required parameters for a user-registered

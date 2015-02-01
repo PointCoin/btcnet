@@ -8,7 +8,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/btcsuite/btcwire"
+	"github.com/PointCoin/btcwire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default
