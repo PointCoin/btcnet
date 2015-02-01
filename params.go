@@ -101,10 +101,10 @@ var MainNetParams = Params{
 	DefaultPort: "22228",
 
 	// Chain parameters
-	GenesisBlock:           &testNet3GenesisBlock,
-	GenesisHash:            &testNet3GenesisHash,
-	PowLimit:               testNet3PowLimit,
-	PowLimitBits:           0x1d00ffff,
+	GenesisBlock:           &simNetGenesisBlock,
+	GenesisHash:            &simNetGenesisHash,
+	PowLimit:               simNetPowLimit,
+	PowLimitBits:           0x207fffff,
 	SubsidyHalvingInterval: 400000,
 	ResetMinDifficulty:     true,
 
