@@ -105,8 +105,8 @@ var MainNetParams = Params{
 	GenesisHash:            &genesisHash,
 	PowLimit:               mainPowLimit,
 	PowLimitBits:           0x1d00ffff,
-	SubsidyHalvingInterval: 210000,
-	ResetMinDifficulty:     false,
+	SubsidyHalvingInterval: 400000,
+	ResetMinDifficulty:     true,
 
 	// Checkpoints ordered from oldest to newest.
 	Checkpoints: []Checkpoint{},
