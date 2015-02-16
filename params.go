@@ -106,7 +106,7 @@ var MainNetParams = Params{
 	PowLimit:               simNetPowLimit,
 	PowLimitBits:           0x207fffff,
 	SubsidyHalvingInterval: 400000,
-	ResetMinDifficulty:     true,
+	ResetMinDifficulty:     false,
 
 	// Checkpoints ordered from oldest to newest.
 	Checkpoints: []Checkpoint{},
